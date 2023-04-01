@@ -178,8 +178,8 @@
     position: relative;
     top: -500;
     left: 500;
+
     height: 200px;
-    overflow:hidden;
     display:flex;
     color: white;
     flex-direction: column;
