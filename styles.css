@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    font-family: Taberna ,sans-serif;
+  }
+  
+  #nav-bar{
+    display: flex;
+    margin: auto 0;
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  
+  #nav-bar li{
+    margin-left: 15px;
+  }
+  
+  body{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+  }
+  
+  .bg{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  #header-img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin: auto 0;
+  }
+  
+  #header{
+    background-color: black;
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+  }
+  
+  .heading{
+    margin-right: auto 0;
+  }
+  
+  .about{
+    width: 100%;
+    margin-top: 425px;
+    background-color: rgb(0,0,0,.7);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    row-gap: 2px;
+    min-height: 400px;
+    max-height: 400px;
+  }
+  
+  .about-text{
+    padding: 5px;
+    padding-left: 10px;
+  }
+  
+  .about-text h2{
+     width: 65%;
+    margin-left: auto;
+  }
+  
+  .about-image{
+    min-height: 400px;
+    max-height: 400px;
+    padding: 5px;
+  }
+  
+  .about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ad{
+    margin: 200px 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #video{
+    width: 500px;
+    height: 315px;
+  }
+  
+  .products{
+    color: black;
+    grid-row: 2/-1;
+  }
+  
+  
+  .products img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .products h3{
+    font-size: 16px;
+  }
+  
+  .shop header{
+    width: 100%;
+    grid-column: 1/-1;
+  }
+  
+  .shop header>h2{
+    position: relative;
+    top: -30;
+    left: -20;
+    margin: 0 auto;
+  }
+  
+  .select{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: auto;
+  }
+  
+  .select p{
+    padding: 0;
+    text-align: center;
+  }
+  
+  .select:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .shop{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+    grid-template-rows: repeat(3, min-content);
+    margin-top: -200px;
+    width: 100%;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: black;
+  }
+  
+  
+  .form-section{
+    width:100%;
+    background-color: white;
+    padding: 10px;
+    padding-top: 150px;
+    height: 955px;
+  }
+  
+  .bg-2{
+    width: 100%;
+    filter: blur(5px);
+    min-height: 400px;
+  }
+  
+  #form{
+    position: relative;
+    top: -500;
+    left: 500;
+    max-width: 500px;
+    height: 200px;
+    overflow:hidden;
+    display:flex;
+    color: white;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    justify-content: space-between;
+  }
+  
+  #email-label{
+    margin: auto;
+  }
+  
+  #email{
+    display: block;
+    width: 100%;
+  }
+  
+  #submit{
+    font-size: 20px;
+  }
+  
+  @media(max-width: 1280px)
+  {
+    #form{
+      left: 100; 
+    }
+  
+    .form-section{
+      height: 750;
+    }
+  }
+  
